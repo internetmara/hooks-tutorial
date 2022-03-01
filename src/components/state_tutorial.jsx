@@ -7,13 +7,20 @@ const StateTutorial = () => {
     setCounter(counter+1);
   }
   
+  const reset = () => {
+    setCounter(0)
+  }
+  
   return (
     <div align="center">
       <br/>
         <h1>UseState</h1>
         <h2>{counter}</h2>
       <br/>
-        <button onClick={increment}>Increment</button>
+        <div className="state-buttons">
+          <button onClick={increment}>Increment</button>
+          <button onClick={reset}>Reset</button>
+        </div>
       <hr/>
     </div>
   )

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const NewAccount = () => {
+const HiBitch = () => {
   const [text, setText] = useState('hi')
   const [button, setButton] = useState(true)
 
@@ -26,4 +26,4 @@ const NewAccount = () => {
   )
 };
 
-export default NewAccount
+export default HiBitch;

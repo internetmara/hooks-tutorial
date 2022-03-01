@@ -6,6 +6,12 @@ body {
   width: 700px;
   margin: auto;
   margin-top: 50px;
+  
+}
+
+.App {
+  overflow: scroll;
+  max-height: 800px;
 }
 
 h1 {
@@ -40,3 +46,22 @@ button {
   text-align: center;
   padding: 20px;
 }
+
+*::-webkit-scrollbar {
+  width: 15px;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #9a1ac1;
+    border-radius: 20px;
+    border: 4px double #7004b9;
+  }
+
+  .state-buttons {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+  }
