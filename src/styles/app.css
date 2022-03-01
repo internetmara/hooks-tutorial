@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: pink;
+  border: 5px solid rgb(0, 136, 220);
+  border-radius: 20px;
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+h1 {
+  font-weight: bold;
+  color: rgb(255, 0, 247);
+  font-size: 40px;
+  text-decoration: underline wavy rgb(255, 140, 0) 4px;
+  /* line-height: 20px; */
+  padding-bottom: 20px;
+  margin: 10px;
+}
+
+h2 {
+  font-size: large;
+}
+hr {
+  border-top: 15px double rgb(7, 203, 247);
+  border-bottom: none;
+}
+
+button {
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: none;
+  border: 3px dotted rgb(212, 0, 255);
+  width: 200px;
+  font-size: 20px;
+  background-color: rgb(166, 166, 232);
+}
