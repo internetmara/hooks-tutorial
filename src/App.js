@@ -10,6 +10,7 @@ function App() {
       <HiBitch />
       <StateTutorial/>
       <ReducerTutorial/>
+      <p className='fuck-off'>this site was made to bring u absolutely nothing copyrite 2007 jellybean inc.</p>
     </div>
   );
 }
