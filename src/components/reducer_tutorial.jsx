@@ -7,6 +7,9 @@ const reducer = (state, action) => {
     case "toggleText":
       return {count: state.count, text: !state.text}
     case "reset":
+      if (state.count == 0) {
+        alert('you don\'t need to reset you dumb fuck')
+      }
       return {count: 0, text: true}
     default:
       return state
